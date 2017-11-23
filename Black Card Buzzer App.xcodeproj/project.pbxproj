@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1CEF9D1FB63F9300846217 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CEF9C1FB63F9300846217 /* AppDelegate.m */; };
+		3A1CEF9F1FB63F9300846217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CEF9E1FB63F9300846217 /* Assets.xcassets */; };
+		3A1CEFA21FB63F9300846217 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CEFA01FB63F9300846217 /* MainMenu.xib */; };
+		3A1CEFA51FB63F9300846217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CEFA41FB63F9300846217 /* main.m */; };
+		3A1CEFAE1FB63FAE00846217 /* red_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CEFAC1FB63FAE00846217 /* red_button.png */; };
+		3A1CEFAF1FB63FAE00846217 /* green_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CEFAD1FB63FAE00846217 /* green_button.png */; };
+		3A1CEFB21FB63FE200846217 /* CORRECT.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CEFB01FB63FE200846217 /* CORRECT.wav */; };
+		3A1CEFB31FB63FE200846217 /* WRONG.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CEFB11FB63FE200846217 /* WRONG.wav */; };
+		3AB42FFB1FBFDB2E0089718D /* BCRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB42FFA1FBFDB2E0089718D /* BCRView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A1CEF981FB63F9300846217 /* Black Card Buzzer App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black Card Buzzer App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1CEF9B1FB63F9300846217 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A1CEF9C1FB63F9300846217 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A1CEF9E1FB63F9300846217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A1CEFA11FB63F9300846217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3A1CEFA31FB63F9300846217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A1CEFA41FB63F9300846217 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A1CEFA61FB63F9300846217 /* Black_Card_Buzzer_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Black_Card_Buzzer_App.entitlements; sourceTree = "<group>"; };
+		3A1CEFAC1FB63FAE00846217 /* red_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_button.png; sourceTree = "<group>"; };
+		3A1CEFAD1FB63FAE00846217 /* green_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_button.png; sourceTree = "<group>"; };
+		3A1CEFB01FB63FE200846217 /* CORRECT.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CORRECT.wav; sourceTree = "<group>"; };
+		3A1CEFB11FB63FE200846217 /* WRONG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WRONG.wav; sourceTree = "<group>"; };
+		3AB42FF91FBFDB2E0089718D /* BCRView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCRView.h; sourceTree = "<group>"; };
+		3AB42FFA1FBFDB2E0089718D /* BCRView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCRView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A1CEF951FB63F9300846217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1CEF8F1FB63F9200846217 = {
+			isa = PBXGroup;
+			children = (
+				3AB42FF91FBFDB2E0089718D /* BCRView.h */,
+				3AB42FFA1FBFDB2E0089718D /* BCRView.m */,
+				3A1CEF9A1FB63F9300846217 /* Black Card Buzzer App */,
+				3A1CEF991FB63F9300846217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A1CEF991FB63F9300846217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A1CEF981FB63F9300846217 /* Black Card Buzzer App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A1CEF9A1FB63F9300846217 /* Black Card Buzzer App */ = {
+			isa = PBXGroup;
+			children = (
+				3A1CEF9B1FB63F9300846217 /* AppDelegate.h */,
+				3A1CEF9C1FB63F9300846217 /* AppDelegate.m */,
+				3A1CEF9E1FB63F9300846217 /* Assets.xcassets */,
+				3A1CEFA01FB63F9300846217 /* MainMenu.xib */,
+				3A1CEFA31FB63F9300846217 /* Info.plist */,
+				3A1CEFA41FB63F9300846217 /* main.m */,
+				3A1CEFAD1FB63FAE00846217 /* green_button.png */,
+				3A1CEFAC1FB63FAE00846217 /* red_button.png */,
+				3A1CEFB01FB63FE200846217 /* CORRECT.wav */,
+				3A1CEFB11FB63FE200846217 /* WRONG.wav */,
+				3A1CEFA61FB63F9300846217 /* Black_Card_Buzzer_App.entitlements */,
+			);
+			path = "Black Card Buzzer App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A1CEF971FB63F9300846217 /* Black Card Buzzer App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A1CEFA91FB63F9300846217 /* Build configuration list for PBXNativeTarget "Black Card Buzzer App" */;
+			buildPhases = (
+				3A1CEF941FB63F9300846217 /* Sources */,
+				3A1CEF951FB63F9300846217 /* Frameworks */,
+				3A1CEF961FB63F9300846217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Black Card Buzzer App";
+			productName = "Black Card Buzzer App";
+			productReference = 3A1CEF981FB63F9300846217 /* Black Card Buzzer App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A1CEF901FB63F9200846217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Hans van Riet";
+				TargetAttributes = {
+					3A1CEF971FB63F9300846217 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3A1CEF931FB63F9200846217 /* Build configuration list for PBXProject "Black Card Buzzer App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A1CEF8F1FB63F9200846217;
+			productRefGroup = 3A1CEF991FB63F9300846217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A1CEF971FB63F9300846217 /* Black Card Buzzer App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A1CEF961FB63F9300846217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1CEFB31FB63FE200846217 /* WRONG.wav in Resources */,
+				3A1CEFB21FB63FE200846217 /* CORRECT.wav in Resources */,
+				3A1CEF9F1FB63F9300846217 /* Assets.xcassets in Resources */,
+				3A1CEFA21FB63F9300846217 /* MainMenu.xib in Resources */,
+				3A1CEFAE1FB63FAE00846217 /* red_button.png in Resources */,
+				3A1CEFAF1FB63FAE00846217 /* green_button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A1CEF941FB63F9300846217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1CEFA51FB63F9300846217 /* main.m in Sources */,
+				3A1CEF9D1FB63F9300846217 /* AppDelegate.m in Sources */,
+				3AB42FFB1FBFDB2E0089718D /* BCRView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A1CEFA01FB63F9300846217 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A1CEFA11FB63F9300846217 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A1CEFA71FB63F9300846217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3A1CEFA81FB63F9300846217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3A1CEFAA1FB63F9300846217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Black Card Buzzer App/Black_Card_Buzzer_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U2G36U39FG;
+				INFOPLIST_FILE = "Black Card Buzzer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hansvanriet.Black-Card-Buzzer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A1CEFAB1FB63F9300846217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Black Card Buzzer App/Black_Card_Buzzer_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U2G36U39FG;
+				INFOPLIST_FILE = "Black Card Buzzer App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hansvanriet.Black-Card-Buzzer-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A1CEF931FB63F9200846217 /* Build configuration list for PBXProject "Black Card Buzzer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1CEFA71FB63F9300846217 /* Debug */,
+				3A1CEFA81FB63F9300846217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A1CEFA91FB63F9300846217 /* Build configuration list for PBXNativeTarget "Black Card Buzzer App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1CEFAA1FB63F9300846217 /* Debug */,
+				3A1CEFAB1FB63F9300846217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A1CEF901FB63F9200846217 /* Project object */;
+}
