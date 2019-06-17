@@ -13,8 +13,8 @@
 		3A1CEFA51FB63F9300846217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CEFA41FB63F9300846217 /* main.m */; };
 		3A1CEFAE1FB63FAE00846217 /* red_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CEFAC1FB63FAE00846217 /* red_button.png */; };
 		3A1CEFAF1FB63FAE00846217 /* green_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CEFAD1FB63FAE00846217 /* green_button.png */; };
-		3A1CEFB21FB63FE200846217 /* CORRECT.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CEFB01FB63FE200846217 /* CORRECT.wav */; };
-		3A1CEFB31FB63FE200846217 /* WRONG.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A1CEFB11FB63FE200846217 /* WRONG.wav */; };
+		3A30FE621FDF1F690023E18F /* CORRECT.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A30FE611FDF1F690023E18F /* CORRECT.wav */; };
+		3A30FE641FDF1F700023E18F /* WRONG.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A30FE631FDF1F700023E18F /* WRONG.wav */; };
 		3AB42FFB1FBFDB2E0089718D /* BCRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB42FFA1FBFDB2E0089718D /* BCRView.m */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +29,8 @@
 		3A1CEFA61FB63F9300846217 /* Black_Card_Buzzer_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Black_Card_Buzzer_App.entitlements; sourceTree = "<group>"; };
 		3A1CEFAC1FB63FAE00846217 /* red_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_button.png; sourceTree = "<group>"; };
 		3A1CEFAD1FB63FAE00846217 /* green_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_button.png; sourceTree = "<group>"; };
-		3A1CEFB01FB63FE200846217 /* CORRECT.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CORRECT.wav; sourceTree = "<group>"; };
-		3A1CEFB11FB63FE200846217 /* WRONG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WRONG.wav; sourceTree = "<group>"; };
+		3A30FE611FDF1F690023E18F /* CORRECT.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CORRECT.wav; sourceTree = "<group>"; };
+		3A30FE631FDF1F700023E18F /* WRONG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WRONG.wav; sourceTree = "<group>"; };
 		3AB42FF91FBFDB2E0089718D /* BCRView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCRView.h; sourceTree = "<group>"; };
 		3AB42FFA1FBFDB2E0089718D /* BCRView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCRView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +67,8 @@
 		3A1CEF9A1FB63F9300846217 /* Black Card Buzzer App */ = {
 			isa = PBXGroup;
 			children = (
+				3A30FE611FDF1F690023E18F /* CORRECT.wav */,
+				3A30FE631FDF1F700023E18F /* WRONG.wav */,
 				3A1CEF9B1FB63F9300846217 /* AppDelegate.h */,
 				3A1CEF9C1FB63F9300846217 /* AppDelegate.m */,
 				3A1CEF9E1FB63F9300846217 /* Assets.xcassets */,
@@ -75,8 +77,6 @@
 				3A1CEFA41FB63F9300846217 /* main.m */,
 				3A1CEFAD1FB63FAE00846217 /* green_button.png */,
 				3A1CEFAC1FB63FAE00846217 /* red_button.png */,
-				3A1CEFB01FB63FE200846217 /* CORRECT.wav */,
-				3A1CEFB11FB63FE200846217 /* WRONG.wav */,
 				3A1CEFA61FB63F9300846217 /* Black_Card_Buzzer_App.entitlements */,
 			);
 			path = "Black Card Buzzer App";
@@ -140,8 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A1CEFB31FB63FE200846217 /* WRONG.wav in Resources */,
-				3A1CEFB21FB63FE200846217 /* CORRECT.wav in Resources */,
+				3A30FE641FDF1F700023E18F /* WRONG.wav in Resources */,
+				3A30FE621FDF1F690023E18F /* CORRECT.wav in Resources */,
 				3A1CEF9F1FB63F9300846217 /* Assets.xcassets in Resources */,
 				3A1CEFA21FB63F9300846217 /* MainMenu.xib in Resources */,
 				3A1CEFAE1FB63FAE00846217 /* red_button.png in Resources */,

@@ -51,7 +51,6 @@
 
 -(IBAction)moveLeft:(id)sender
 {
-    
     if ([_wrongSoundPlay isPlaying]) {
         [_wrongSoundPlay stop];
         [_wrongSoundPlay setCurrentTime:0];
